@@ -8,22 +8,24 @@
 
 
     <ImageView
-        android:layout_width="267dp"
-        android:layout_height="222dp"
+        android:layout_width="352dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/cine"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="374dp"
         android:layout_height="420dp"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
@@ -79,6 +81,11 @@
             android:layout_height="wrap_content"
             android:onClick="onClickCartelera"
             android:text="Cartelera" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickCartelera"
+            android:text="Comprar" />
 
 
     </LinearLayout>
